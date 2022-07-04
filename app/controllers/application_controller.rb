@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  layout(false)
+  layout("header.html.erb")
 
   # Add your actions below this line
   # ================================
